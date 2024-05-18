@@ -1,0 +1,345 @@
+  /*logo section start*/
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+   }
+   .container{
+    width: 100%;
+    height: 100vh;
+
+   }
+   .horse img{
+    height: 350px;
+    width: 100%;
+   }
+   .logo{
+    position: absolute;
+    height:50px;
+    top: 50px;
+    left: 90px;
+   }
+   .logo h1{
+    color: rgb(181, 148, 106);
+    font-size: 70px;
+   }
+   .logo h2{
+    font-size: 60px;
+    color: rgb(52, 205, 154);
+   }
+   
+   .logo h3{
+    
+    left: 100px;
+    font-size: 80px;
+    color: rgba(64, 34, 87, 0.889);
+   }
+   .logo samp{
+    color: rgb(129, 100, 65);
+   }
+   .searcharea{
+    position: fixed;
+    right: 90px;
+    top: 50px;
+    width: 170px;
+    height: 45px;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    border-radius: 10% 10% 150% 150%/ 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(118, 85, 143, 0.889);
+    box-sizing: border-box;
+    z-index: 1;
+    border: 2px solid rgba(184, 138, 219, 0.889);
+   }
+   .searchbox{
+    position: absolute;
+    top: 10px;
+   }
+   .searchbox input{
+    width: 90px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 0% ;
+   }
+   .searchbox input::placeholder{
+    color: rgb(117, 41, 41);
+    color: blanchedalmond;
+    font-weight: bold;
+   }
+   /* logo section end*/
+
+   /* first container start*/
+   .imgarea{
+    position: absolute;
+    left: 90px;
+    top: 400px;
+    
+   }
+   .imgarea img{
+    height: 300px;
+    border-radius: 30px;
+   }
+   .section1{
+    position: absolute;
+    top: 500px;
+    left: 700px;
+   }
+   .section1 h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 90px;
+    line-height: 4rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+   }
+   .section1 h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    line-height: 2rem;
+    color: rgb(95, 95, 72);
+
+   }
+   .btn{
+    width: 150px;
+    height: 40px;
+    background-color: #2f2e41;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10%/ 50% 50% 50% 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+
+   }
+   .btn:hover{
+    color:rgb(173, 144, 105) ;
+    background-color: rgb(79, 53, 102);
+    transition: all ease 0.2ms;
+   }
+   .icon{
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    background-color: darkgray;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    padding: 5px 0px;
+    z-index: 1;
+   }
+   .icon a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+    
+   }
+   .icon a:hover .fa-facebook{
+     color: rgb(202, 48, 9);
+   }
+   .icon a:hover .fa-twitter{
+    color: rgb(135, 86, 203);
+  }
+  .icon a:hover .fa-instagram{
+    color: rgb(213, 64, 199);
+  }
+  .icon a:hover .fa-youtube{
+    color:aqua;
+  }
+  /* first container end*/
+
+  /*products section start*/
+  .productarea{
+    width: 90%;
+    background-color: #abccd2;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px;
+  }
+  .productarea h2{
+    margin: 20px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    font-family: myrid pro;
+    font-weight: 700px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 2rem;
+    color: #2f2e41;
+  }
+  .product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+    width: 100%;
+  }
+  .productbox{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 30px;
+  }
+  .productarea img{
+    height: 250px;
+    width: 280px;
+  }
+  .productbox p{
+    color: #4d4d4d;
+    font-family: myrid pro;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+  }
+  .productbox a{
+    color: #7a455ef0;
+    font-size: 1rem;
+    
+  }
+  .bu{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    border-radius: 15% 15% 15% 15%/50% 50% 50% 50%;
+    background: linear-gradient(120deg,#6b60ec,#a166f4);
+    color: #ffffff;
+    display: none;
+    animation: fade 0.2s;
+    
+    
+  }
+  .productbox:hover .bu{
+    display: flex;
+  }
+  .productbox:hover{
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  }
+  .productbox:hover a:last-child{
+    color: #fff;
+    transition: all easy 0.3s;
+  }
+  /* product section end*/
+
+    /*about sectiion start*/
+    .about{
+      display:flex;
+      width: 85%;
+      margin: 30px auto;
+      justify-content: space-around;
+      align-items: center;
+      padding: 30px;
+    }
+    .text{
+      
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 25px;
+    }
+    .text h1{
+      font-weight: 80px;
+      color: #8fdae8;
+      margin-bottom: 10px;
+    }
+    .text span{
+      color: #9f3bb6;
+      text-emphasis-style: inherit;
+      font-style: italic ;
+      font-weight: bold;
+    }
+    .text p{
+      width: 450px;
+      color: rgb(123, 34, 34);
+      font-size: 1rem;
+    }
+    /*about sectiion end*/
+
+    /* Notification section start */
+    .Notification{
+      width: 100%;
+      height: 250px;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .Notification h1{
+      font-size: 2rem;
+      color:rgba(30, 73, 93);
+    }
+    .Notificationinput{
+      width: 500px;
+      background-color: #fff;
+      border-radius: 7% 7% 7% 7% /50% 50% 50% 50%;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 20px;
+      box-shadow:5px 10px 30px chocolate;
+      margin-top: 30px;
+      }
+      .Notificationinput input{
+        width: 100%;
+        height: 40px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+      }
+      .Notificationbutton{
+        width: 120px;
+        height:40px;
+        color:#fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #371062;
+        text-transform: uppercase;
+        font-weight: bold;
+        box-shadow: 2px 2px 30px rgb(107, 26, 59);
+        border-radius: 25px;
+        font-size: large;
+      }
+      .Notificationbutton:hover{
+        background-color: #280104ec;
+        transition: all ease 0.2s;
+      } /*footer start*/
+      footer{
+        background-color: #2f2e41;
+        padding: 20px;
+      }
+      footer p{
+        text-align: center;
+        color: #ffffff;
+
+      }
+    
